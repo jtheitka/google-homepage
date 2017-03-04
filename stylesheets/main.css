@@ -1,0 +1,144 @@
+html{
+	margin: 0;
+}
+
+.links{
+	float: right;
+	text-align: center;
+	min-width: 220px;
+	display: inline-block;
+	margin-top: 5px;
+	font-family: arial, sans serif;
+}
+
+.links input{
+	width: 70px;
+	height: 30px;
+	color: white;
+	margin-right: 25px;
+	background-color: #4285f4;
+	border-radius: 2px;
+	border: 1px solid #4285f4;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#apps{
+	background-image:url("../icons/icons.png");
+}
+
+a:link{
+	color: #000;
+	text-decoration: none;
+	line-height: 15px;
+	vertical-align: middle;
+	opacity: .75;
+	margin-right: 8px;
+	font-size: 13px;
+}
+
+a:hover{
+	opacity: .85;
+	text-decoration: underline;
+}
+
+a:visited{
+	color: #000;
+}
+
+i{
+	color: gray;
+	height: 25px;
+	width: 25px;
+	margin: 5px 8px 5px 0px;
+	vertical-align: middle;
+}
+
+/* Clearfix */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+.middle{
+	text-align: center;
+}
+
+.logo{
+	display: inline-block;
+	padding-top: 170px;
+}
+
+.search{
+	padding: 25px;
+}
+input{
+	width: 550px;
+	height: 44px;
+	border: 1px;
+	border-radius: 3px;
+	border-color: #e0e0e0;
+	border-style: solid;
+	box-shadow: 0px 1px 0px 0px #e0e0e0;
+}
+button{
+	height: 36px;
+	line-height: 27px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color:#757575;
+	cursor: default;
+	font-family: arial;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
+	padding: 0 16px;
+	text-align: center;
+}
+footer{
+	box-sizing: border-box;
+	line-height: 40px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;	
+	background-color: #F0F0F0;
+	display: inline-block;
+	border-top: 1px solid #f2f2f2;
+}
+
+.left-footer{
+	float: left;
+	margin-left: 30px;
+	font-family: arial;
+	font-size: 13px;
+}
+
+.right-footer{
+	float: right;
+	margin-right: 30px;
+	font-family: arial;
+	font-size: 13px;
+}
+
+/*adding below to add spacing between links.  putting this
+in .right or .left footers was only moving the block, not individual
+links.*/
+
+.left-footer a{
+	margin-right: 25px;
+}
+
+.right-footer a{
+	margin-right: 25px;
+}
